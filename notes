@@ -12,9 +12,31 @@ sauf que le javascript peut s'executer coté backend
 * sending a email
 * interacting with DB
 
-Ateliers : 
+#Ateliers : 
 
-installation nodejs ? testez l'existence du serveur ? 
+#installation nodejs ? testez l'existence du serveur ? 
 
 Ateliers 2 : 
 node in action : 
+
+#Ateliers 3:NPM  
+package management ? 
+
+NPM c'est un store qui contient du code 
+pour faire une cake on a besoi:
+
+* chocolat * lait etc.. 
+donc pour ne pas utiliser bcp de code NPM nous permet d'importer
+des packages afin de les utiliser
+tous les developeurs push leur code NPM ( community of packages)
+
+l'automatisation de download du code avec mise a jour
+un robot qui s occupe de l'importation
+==> type of packages :
+# node packages 
+1= automatisation
+2= building tools
+3= servers tasks 
+
+# d'autres 
+jquery , bootstrap , normalize.css
