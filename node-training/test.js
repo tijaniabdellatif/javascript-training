@@ -19,7 +19,7 @@ var https = require('https');
 
  https.get(myphoto,function(response){
   
-response.pipe(fs.createWriteStream(__dirname + "/image1.jpg"));
+response.pipe(fs.createWriteStream(__dirname + "/image2.jpg"));
 
  });
 
