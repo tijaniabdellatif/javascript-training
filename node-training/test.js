@@ -1,7 +1,8 @@
 //console.log("Hello world");
 //console.log(3+2);
 
-var fs = require("fs");
+ var fs = require("fs");
+var https = require('https');
  fs.writeFile(__dirname + "/index.html","<h1>interaction avec le systeme</h1>",function(error){
   if(error)
   {
@@ -12,6 +13,14 @@ var fs = require("fs");
 
     return console.log("Bienvenue !!");
   }
+ });
 
+ let myphoto="https://raw.githubusercontent.com/tijaniabdellatif/images/master/Web-Designing-Training.jpg";
+
+ https.get(myphoto,function(response){
+  
+response.pipe(fs.createWriteStream(__dirname + "/image1.jpg"));
 
  });
+
+
