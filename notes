@@ -40,3 +40,7 @@ un robot qui s occupe de l'importation
 
 # d'autres 
 jquery , bootstrap , normalize.css
+
+
+#NPM
+npm install jquery --save
