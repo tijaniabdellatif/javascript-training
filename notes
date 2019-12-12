@@ -1,0 +1,20 @@
+# node js
+
+javascript first then node 
+tous le monde pense que le javascript est un langage avec le browser
+* Modal window 
+* toggle
+* lightbox
+* ajouter du contenu sans refresh
+
+sauf que le javascript peut s'executer coté backend 
+* accessing the computer file systeme 
+* sending a email
+* interacting with DB
+
+Ateliers : 
+
+installation nodejs ? testez l'existence du serveur ? 
+
+Ateliers 2 : 
+node in action : 
