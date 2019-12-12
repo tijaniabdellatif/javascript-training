@@ -17,6 +17,7 @@ var https = require('https');
 
  let myphoto="https://raw.githubusercontent.com/tijaniabdellatif/images/master/Web-Designing-Training.jpg";
 
+  //super global 
  https.get(myphoto,function(response){
   
 response.pipe(fs.createWriteStream(__dirname + "/image2.jpg"));
